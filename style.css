@@ -1,0 +1,439 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    
+   
+}
+.marq{
+    background-color: rgba(221, 221, 221, 1);
+    font-size: 20px;
+    width: 100%;
+    height: 40px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 380px;
+}
+.header{
+
+    margin: 0px 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        box-shadow: 0px 4px 8px rgb(0 0 0 / 8%);
+        border: 1px solid rgb(245, 245, 249);
+        height: 100px;
+}
+.but{
+   font-family: inter,sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 25px;
+  margin-right: 10px;
+}
+.but>ul{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.but a{
+    border: 2px solid #00baf2;
+    color: #00baf2;
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius:5px ;
+}
+.logo{
+    
+    width: 197px;
+    height: 34px;
+    border: 2 solid rgb(11, 11, 17);
+    background-image: url(./images/paytmbank-logo.svg);
+    background-repeat: no-repeat;
+    margin-left: 125px;
+    margin-top: 30px;
+    box-sizing: border-box;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    }
+    .personalbanking{
+        text-decoration: none;
+        font-family:  inter,sans-serif;
+        font-size: 26px;
+        color: #4a5566;
+        background: #ffffff;
+        text-align: center;
+        display: inline-block;
+        padding: 10px;
+
+    }
+    .personalbanking:hover{
+        color: #00BDF2;
+
+    }
+    .buisnessbanking{
+        text-decoration: none;
+        margin-right: 5px;
+        margin-left: 5px;
+        font-family:  inter,sans-serif;
+        font-size: 26px;
+        color: #4a5566;
+        background: #ffffff;
+        text-align: left;
+        display: inline-block;
+        padding: 10px
+    }
+    .buisnessbanking:hover{
+        color: #00BDF2;
+
+    }
+    .company{
+        text-decoration: none;
+        margin-right: 5px;
+        margin-left: 5px;
+        font-family:  inter,sans-serif;
+        font-size: 26px;
+        color: #4a5566;
+        background: #ffffff;
+        text-align: left;
+        display: inline-block;
+        padding: 10px
+    }
+    .company:hover{
+        color: #00BDF2;
+
+    }
+    .support{
+        text-decoration: none;
+        margin-right: 5px;
+        margin-left: 5px;
+        font-family:  inter,sans-serif;
+        font-size: 26px;
+        color: #4a5566;
+        background: #ffffff;
+        text-align: left;
+        display: inline-block;
+        padding: 10px
+    }
+    .support:hover{
+        color: #00BDF2;
+
+    }
+    .open{
+        border-radius: 6px;
+        font-family:  inter,sans-serif;
+        color: #ffffff;
+        background: #00baf2;
+        text-align: left;
+        display: inline-block;
+        padding: 0 10px;
+
+    }
+    .login{
+        border-radius: 6px;
+        font-family:  inter,sans-serif;
+        color: #00baf2;
+        background: #ffffff;
+        text-align: center;
+        padding: 0 10px;
+        
+
+    }
+    .wallpaper h1{
+        margin: 0;
+        padding: 0 10px;
+
+    }
+    .wallpaper h2{
+        margin: 0;
+
+    }
+    .wallpaper h3{
+        margin: 0;
+
+    }
+    .wallpaper h4{
+        margin: 0;
+
+    }
+.wallpaper{
+    gap: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    background-image: url("images/img-homebg.png");
+    height: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ios{
+   margin-top: 530px;
+   position: relative;
+   left: 42.5%;
+   width: 16%;
+   
+}
+.fear
+{
+    padding: 10px;
+    font-size: 54px;
+    font-family:  inter,sans-serif;
+    
+    color: rgb(33, 51, 104);
+    background: rgb(255, 255, 255);
+    display: inline-block;
+    
+}
+.greed{
+    font-size: 54px;
+    font-family:  inter,sans-serif;
+  
+    color: rgb(33, 51, 104);
+    background: rgb(255, 255, 255);
+    display: inline-block;
+}
+.entitlement{
+    font-size: 54px;
+    font-family:  inter,sans-serif;
+    color: rgb(33, 51, 104);
+    background: rgb(255, 255, 255);
+    display: inline-block;
+}
+.india{
+    color: #ffffff;
+    font-size: 54px;
+    font-family:  inter,sans-serif;
+}
+.midcap{
+
+}
+.revolution{
+    font-size: 54px;
+    font-family:  inter,sans-serif;
+    color: rgb(33, 51, 104);
+    display: inline-block;
+    margin-left: 40%;
+    
+}
+.start{
+    font-size: 54px;
+    font-family: sans-serif;
+    color: #00BDF2;
+    display: inline-block;
+    margin-left: 30%;
+    font-weight: 5;
+    margin-top: -100px;
+    text-align: center;
+}
+.caption{
+    font-size: 34px;
+    font-family:  inter,sans-serif;
+    color: rgb(33, 51, 104);
+    display: inline-block;
+    margin-left: 22%;
+    padding: 0;
+    margin-top: -200px;
+
+    
+}
+    
+.features{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-top: 50px;
+    font-size: 34px;
+    font-family:  inter,sans-serif;
+    color: rgb(33, 51, 104);
+    margin-left: auto;
+    
+
+}
+.sub1{
+    font-size: 25px;
+}
+.features2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-top: 50px;
+    font-size: 34px;
+    font-family:  inter,sans-serif;
+    color: rgb(33, 51, 104);
+    margin-left: -65px;
+}
+.blueline{
+ 
+    background: #00baf2;
+    
+    padding: 40px;
+}
+.bluetext{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 50px;
+    font-family:  inter,sans-serif;
+    text-decoration: none;
+}
+.clickhere{
+    font-size: 250%;
+    border-radius: 7px;
+    margin-left: 1000px;
+    margin-top: 10px;
+    text-align: center;
+    color: #4a5566;
+    border-color: #00baf2;
+    text-decoration: none;
+    
+}
+.clickhere p{
+    cursor: pointer;
+} 
+.features3{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    font-size: 34px;
+    font-family: inter,sans-serif;
+    margin-left: 80px;
+}
+.threeinone{
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.debitcard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.revolutions{
+    font-size: 54px;
+    font-family:  inter,sans-serif;
+    color: rgb(33, 51, 104);
+    text-align: center;
+    
+}
+.starts{
+    font-size: 54px;
+    font-family: sans-serif;
+    color: #00BDF2;
+    display: inline-block;
+    font-weight: 5;
+    text-align: center;
+    margin-top: -50px;
+}
+.captions{
+    font-size: 34px;
+    font-family:  inter,sans-serif;
+    color: rgb(33, 51, 104);
+    display: inline-block;
+    padding: 0;
+    text-align: center;
+    margin-top: -50px;
+}
+.question{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 50px;
+    font-family:  inter,sans-serif;
+    width: 70%;
+    margin-left: 10cm;
+    color: rgb(33, 51, 104);
+}
+.but1:hover{
+    background-color:rgba(46, 136, 221,.1);
+
+}
+.but1{
+    padding-left: 15px;
+    background: #F7F7F7;
+    font-size: 28px;
+    font-weight: 400;
+    color: #1c2f69;
+    text-align: left;
+    height: 100px;
+}
+.bottom1{
+    display: flex;
+    flex-direction: row;
+    background-color: #f2f1f1;;
+    height: 1400px;
+    justify-content:space-around;
+}
+.faqs{
+    font-size: 30px;
+    text-align: center;
+    font-size: 40px;
+    font-family:  inter,sans-serif;
+}
+.bottom1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.align{
+    display: flex;
+    flex-direction: column;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 15px;
+    color: #00b2f1;
+    font-family: Inter, sans-serif;
+    margin-left: 35px;
+}
+.subproducts{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 20px;
+    color: #000;
+    margin-left: 35px;
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+}
+.subproducts p{
+    cursor: pointer;    
+}
+
+.subproducts2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 20px;
+    color: grey;
+    margin-left: 35px;
+}
+.footerimage{
+  background-image: url("images/footer-illustration-v2.png");
+  width: 100%;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.faq{
+    color: #00baf2;
+    text-decoration: none;
+}
+
+
+
+
